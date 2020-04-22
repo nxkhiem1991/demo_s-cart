@@ -1,0 +1,16 @@
+[2020-04-14 16:42:26] local.ERROR: There are no commands defined in the "congfig" namespace.
+
+Did you mean this?
+    config {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"congfig\" namespace.
+
+Did you mean this?
+    config at /home/gate/Projects/s-cart/vendor/symfony/console/Application.php:597)
+[stacktrace]
+#0 /home/gate/Projects/s-cart/vendor/symfony/console/Application.php(650): Symfony\\Component\\Console\\Application->findNamespace('congfig')
+#1 /home/gate/Projects/s-cart/vendor/symfony/console/Application.php(235): Symfony\\Component\\Console\\Application->find('congfig:clear')
+#2 /home/gate/Projects/s-cart/vendor/symfony/console/Application.php(147): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /home/gate/Projects/s-cart/vendor/laravel/framework/src/Illuminate/Console/Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /home/gate/Projects/s-cart/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 /home/gate/Projects/s-cart/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
